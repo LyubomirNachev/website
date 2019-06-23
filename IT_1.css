@@ -1,0 +1,131 @@
+body{
+    
+    background-image: url(triangles5.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin:0;
+}
+
+.main_box{
+    margin-right:0px;
+    margin-left:0px; 
+    height: 80px;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(60deg, #013A6B 50%, #ff5800 50%);
+    position: relative;
+}
+.head_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right:15px;
+    top:30px;
+    color:white;
+    opacity: 0.6;
+}
+
+#h1_main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    left: 15px;
+    color: rgb(145, 177, 202);
+}
+
+.menu_box{
+    top: 0;
+    width:100%;
+    position:sticky;
+    margin:0;
+    height:40px;
+    background-color:rgb(54, 54, 54)
+}
+
+.block{
+    letter-spacing: 1px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin-right:10px;
+    float:left;
+    padding:9px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+    color:orange;
+}
+
+a:visited{
+    color:white;
+}
+a.ex1:hover{
+    color:#e40808;
+}
+a.ex2:hover{
+    color:#18bb13;
+}
+a.ex3:hover{
+    color:#1b40e6;
+}
+
+#images{
+    float: right;
+    width: 300px;
+    margin-left:70px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#main-header{
+    margin-left:20px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgb(133, 134, 134);
+}
+
+.heading{
+    margin-left:25px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: rgb(204, 200, 200);
+}
+
+.small{
+    margin-left:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.par{
+    margin-left:20px;
+    box-sizing: border-box;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 15px;
+    color:rgba(255, 255, 255, 0.589);
+}
+
+#post1{
+    padding:10px;
+    background-image: -webkit-linear-gradient(80deg, #771010 50%, #424242 50%);
+    margin-top:50px;
+    border:1px solid rgb(0, 0, 0);
+    padding-bottom:50px;
+}
+
+#post2{
+    padding:10px;
+    background-image: -webkit-linear-gradient(80deg, #1465ff 50%, #424242 50%);
+    margin-top:50px;
+    border:1px solid rgb(0, 0, 0);
+    padding-bottom:50px;
+}
+
+#post3{
+    padding:10px;
+    background-image: -webkit-linear-gradient(80deg, #2cff3c 50%, #424242 50%);
+    margin-top:50px;
+    border:1px solid rgb(0, 0, 0);
+    padding-bottom:50px;
+}

@@ -1,0 +1,124 @@
+body{
+    
+    background-image: url(triangles5.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin:0;
+}
+
+#main_box{
+    margin-right:0px;
+    margin-left:0px; 
+    height: 80px;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(60deg, #771010 50%, #868688 50%);
+    position: relative;
+}
+.head_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right:15px;
+    top:30px;
+    color:white;
+    opacity: 0.6;
+}
+
+#h1_main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    left: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.menu_box{
+    top: 0;
+    width:100%;
+    position:sticky;
+    margin:0;
+    height:40px;
+    background-color:rgb(54, 54, 54)
+}
+
+.block{
+    letter-spacing: 1px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    float:left;
+    margin-right:10px;
+    padding:9px;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration:none;
+    color:rgb(206, 39, 39);
+}
+
+a:visited{
+    color:white;
+}
+a:hover{
+    color:#1465ff;
+}
+
+#writing{
+    border:1px solid #fff;
+    margin-right: 300px;
+    margin-left:300px; 
+    height: 3000px;
+    background-color: #ccc;
+    border-radius:15px;
+}
+
+.list1{
+    list-style-type: square;
+}
+
+.li{
+    margin:5px;
+}
+
+
+#h1_writing{
+    text-align: center;
+    margin-left:20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    opacity: 0.6;
+}
+
+.img{
+    width: 80%;
+    top:130px;
+    margin-left:70px;
+    margin-right:70px;
+    border-radius: 8px;
+}
+
+
+.para{
+    padding-bottom: 5px;
+    margin-left:20px;
+    margin-right:20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#h2_writing{
+    margin-left:20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    opacity: 0.6;
+}
+
+#h3_writing{
+    margin-left:20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    opacity: 0.6;
+}
+
+#h4_writing{
+    margin-left:20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    opacity: 0.6;
+}
